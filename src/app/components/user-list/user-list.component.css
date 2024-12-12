@@ -1,0 +1,78 @@
+.user-list {
+  max-width: 800px;
+  margin: 40px auto;
+  padding: 20px;
+  background-color: #f9f9f9;
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.user-list h2 {
+  text-align: center;
+  margin-bottom: 20px;
+  font-size: 24px;
+  font-weight: bold;
+  color: #333;
+}
+
+.user-list ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.user-list li {
+  padding: 20px;
+  border-bottom: 1px solid #ccc;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.user-list li:last-child {
+  border-bottom: none;
+}
+
+.user-list li .user-info {
+  font-size: 18px;
+  font-weight: bold;
+  color: #333;
+}
+
+.user-list li .user-email {
+  font-size: 16px;
+  color: #666;
+}
+
+.user-list li .actions {
+  margin-left: 20px;
+}
+
+.user-list li .actions button {
+  background-color: #4CAF50;
+  color: #fff;
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-right: 10px;
+}
+
+.user-list li .actions button:hover {
+  background-color: #3e8e41;
+}
+
+.create-user-button {
+  background-color: #4CAF50;
+  color: #fff;
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-top: 20px;
+}
+
+.create-user-button:hover {
+  background-color: #3e8e41;
+}

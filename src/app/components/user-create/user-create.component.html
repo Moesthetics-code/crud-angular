@@ -1,0 +1,11 @@
+<!-- Page d'ajout d'un utilisateur -->
+<div class="add-user">
+  <h2>Ajouter un utilisateur</h2>
+  <label for="name">Nom :</label>
+  <input type="text" id="name" [(ngModel)]="user.name" />
+  <label for="email">Email :</label>
+  <input type="email" id="email" [(ngModel)]="user.email" />
+  <button (click)="addUser ()">Ajouter</button>
+</div>
+
+<!-- Page de modification d'un utilisateur -->
